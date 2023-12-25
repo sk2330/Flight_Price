@@ -46,7 +46,7 @@ def predict():
         Duration_total_mins = abs(Duration_hour + Duration_minutes)
 
         Total_Stops = int(request.form["stops"])
-        Airline = request.form['Airline']
+        Airline = request.form['airline']
         Source = request.form["Source"]
         Destination = request.form["Destination"]
         Additional_Info = request.form["Additional_Info"]
