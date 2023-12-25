@@ -7,7 +7,7 @@ import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
 app = Flask(__name__)
-model = pickle.load(open("flight_price._xgb.pkl", "rb"))
+model = pickle.load(open("flight_price_xgb.pkl", "rb"))
 
 # Load the LabelEncoders
 le_Airline = LabelEncoder()
