@@ -4,4 +4,4 @@ scikit-learn
 matplotlib
 flask
 flask_cors
-
+xgboost
