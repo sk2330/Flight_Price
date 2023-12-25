@@ -74,11 +74,7 @@ def predict():
         Departure_minutes,
         Duration_minutes,
         Duration_hour,
-        Duration_total_mins,
-        encoded_Airline[0],
-        encoded_Source[0],
-        encoded_Destination[0],
-        encoded_Addition_Info[0]
+        Duration_total_mins
 ]])
   
 
