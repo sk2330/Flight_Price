@@ -61,11 +61,11 @@ def predict():
         # Make the prediction
         # Make the prediction
         prediction = model.predict([[
-        Airline,
-        Source,
-        Destination,
+        encoded_Airline[0],
+        encoded_Source[0],
+        encoded_Destination[0],
+        encoded_Addition_Info[0],
         Total_Stops,
-        Additional_Info,
         Day,
         Month,
         Arrival_hour,
