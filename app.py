@@ -46,13 +46,13 @@ def predict():
         Duration_total_mins = abs(Duration_hour + Duration_minutes)
 
         Total_Stops = int(request.form["stops"])
-        airline = request.form['Airline']
+        Airline = request.form['Airline']
         Source = request.form["Source"]
         Destination = request.form["Destination"]
         Additional_Info = request.form["Additional_Info"]
 
         # Label encode the categorical variables
-        encoded_Airline = le_Airline.transform([airline])
+        encoded_Airline = le_Airline.transform([Airline])
         encoded_Source = le_Source.transform([Source])
         encoded_Destination = le_Destination.transform([Destination])
         encoded_Addition_Info =le_Additional_Info.transform([Additional_Info])
