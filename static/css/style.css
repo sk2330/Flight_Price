@@ -1,80 +1,60 @@
-body {
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
+        body {
+           background: linear-gradient(to bottom, #7aa7d3, #5e8dbb);
+           margin: 0;
+           font-family: 'Helvetica Neue', sans-serif;
+        }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
 
-h1 {
-    margin: 0;
-    font-size: 2em;
-}
+        .container {
+            background-color: #d6d1d68c;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(240, 233, 233, 0.1);
+            padding: 20px;
+            margin-top: 50px;
+        }
 
-.navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-}
+        .navbar {
+            background-color: #343a40 !important;
+        }
 
-.flight-icon {
-    position: absolute;
-    top: 10px;
-    left: 3px;
-    width: 30px; 
-    height: 30px;
-}
+        .flight-icon {
+            width: 50px;
+            height: 50px;
+            margin-right: 50px;
+        }
+        .card {
+            margin-bottom: 10px;
+        }
+        .card:hover {
+            transform: scale(1.03);
+            transition: transform 0.3s ease-in-out;
+        }
 
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
 
-a:hover {
-    color: #0056b3;
-}
+        .btn-primary {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            border-color: #007bff;
+            transition: background-color 0.3s ease-in-out;
+        }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
+        .btn-primary:hover {
+            background: linear-gradient(to right, #0056b3, #007bff);
+            border-color: #0056b3;
+        }
 
-section {
-    padding: 40px 0;
-}
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    color: #fff;
-    background-color: #007BFF;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
+        h5.card-title {
+            color: #007bff;
+        }
 
-.button:hover {
-    background-color: #0056b3;
-}
+        select.form-control,
+        input.form-control {
+            margin-bottom: 10px;
+        }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
-    }
-}
+        select.form-control {
+            appearance: none;
+            background: img("H:\Downloads\flight_icon.png") no-repeat right #8b6565;
+            background-size: 24px;
+            padding-right: 40px;
+        }
