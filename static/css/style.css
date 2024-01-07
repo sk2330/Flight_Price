@@ -54,7 +54,7 @@
 
         select.form-control {
             appearance: none;
-            background: img("H:\Downloads\flight_icon.png") no-repeat right #8b6565;
-            background-size: 24px;
+            background: url("https://cdn-icons-png.flaticon.com/128/10504/10504910.png") no-repeat right #579ae7;
+            background-size: 35px;
             padding-right: 40px;
         }
